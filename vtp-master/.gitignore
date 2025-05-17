@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+*.pth
+*.pt
+*.out
+*.json
+*.lock
+!checkpoints/tokenizers/README.md
+*.pkl
+*.csv
