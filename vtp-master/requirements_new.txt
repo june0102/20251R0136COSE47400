@@ -1,0 +1,25 @@
+# ---- 필수 파이썬 패키지 (GPU 공통) ----
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+scikit-image>=0.22
+einops>=0.7.0
+tqdm>=4.66
+pillow>=10.3
+matplotlib>=3.8
+ConfigArgParse>=1.5
+
+# ---- CV / 영상 ----
+opencv-python>=4.8.1.78
+opencv-contrib-python>=4.8.1.78
+decord==0.6.0
+
+# ---- HuggingFace / Transformer ----
+transformers>=4.39
+tokenizers>=0.15
+huggingface-hub>=0.22.2
+
+# ---- lucidrains attention ----
+linear-attention-transformer>=0.24
+local-attention>=1.8
